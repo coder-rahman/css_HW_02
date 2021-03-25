@@ -1,0 +1,111 @@
+*{
+	margin:0px; 
+	padding:0px;
+}
+body{
+	font-family:georgia;
+	box-sizing:border-box;
+}
+.wrapper{
+	width:90%;
+	margin:0 auto;
+}
+.header{
+	width:100%;
+	margin:30px auto;
+	background:#213450;
+	padding: 20px;
+}
+.header h2{
+	width:100%;
+	line-height:45px;
+	font-size:35px;
+	color:red;
+	text-align:center;
+}.header h2:after{
+	content:" MD Mizanur";
+	color:white;
+	font-size: 30px;
+}
+.header h1{
+	color:red;
+	font-size: 30px;
+	text-align:center;
+	
+}
+.header h1:before{
+	content:"Efforting to be a web developer ";
+	color: white;
+}
+.header-sub{
+	width: 100%;
+	margin:20px auto;
+	background:#ddd;
+	padding: 10px;
+}
+.header-sub:hover{
+	background:red;
+	padding: 15px;
+}
+.header-sub h3{
+	color:000;
+	font-size: 20px;
+	text-align:center;
+	
+}.header-sub h3:hover{
+	color:white;
+	font-size: 20px;
+	text-align:center;
+}
+#myform{
+	width: 100%;
+	margin:20px auto;
+	background:#DDD;
+	padding: 15px;
+}#myform h1{
+	text-align:center;
+}
+.formFocus{
+	width: 90%;
+	height: 20px;
+}
+.formFocus:focus{
+	border:2px solid tomato;
+}
+.submit{
+	margin-left: 30px;
+	height: 30px;
+	width: 110px;
+}
+#list{
+	width: 100%;
+	margin:20px auto;
+	background:#0c0a0a;
+	padding: 20px;
+	text-align:center;
+	font-size: 23px;
+}
+ul {
+	list-style:none;
+}
+ul li a{
+	color: #000;
+	background: #FFF;
+	display:inline-block;
+	padding: 10px 60px;
+	margin: 5px 0px;
+	text-decoration:none;
+}
+ul li a:hover{
+	background:orange;
+}
+ul li a:active{
+	background:white;
+	color:blue;
+}
+ul li a:focus{
+	background:tomato;
+}
+ul li a:visited{
+	background:salmon;
+}
